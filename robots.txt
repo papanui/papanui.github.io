@@ -1,0 +1,4 @@
+Sitemap: https://papanui.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: papanui.github.io
