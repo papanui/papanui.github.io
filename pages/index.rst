@@ -10,4 +10,4 @@
 Write your page here. Today is Monday. Another change. Make it a web based Nikola. Continuing
 with setup. Yet more before midnight.
 
-
+Ten minutes to midnight now.
