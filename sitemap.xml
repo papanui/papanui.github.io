@@ -7,56 +7,44 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://papanui.github.io/</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="mi" href="https://papanui.github.io/mi/indexmi/" />
  </url>
  <url>
   <loc>https://papanui.github.io/archive.html</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/blog/</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/categories/</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/contact-us/</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="mi" href="https://papanui.github.io/mi/contact-usmi/" />
  </url>
  <url>
-  <loc>https://papanui.github.io/galleries/</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://papanui.github.io/listings/</loc>
-  <lastmod>2021-01-18T07:25:00Z</lastmod>
- </url>
- <url>
   <loc>https://papanui.github.io/mi/archive.html</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/mi/blog/</loc>
-  <lastmod>2021-01-20T04:13:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/mi/categories/</loc>
-  <lastmod>2021-01-20T04:13:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/mi/contact-usmi/</loc>
-  <lastmod>2021-01-20T04:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://papanui.github.io/mi/galleries/</loc>
-  <lastmod>2021-01-20T04:13:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/mi/indexmi/</loc>
-  <lastmod>2021-01-20T04:13:00Z</lastmod>
+  <lastmod>2021-01-20T04:35:00Z</lastmod>
  </url>
 </urlset>
