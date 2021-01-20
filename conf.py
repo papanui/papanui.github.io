@@ -112,7 +112,7 @@ TRANSLATIONS = {
 }
 """
 TRANSLATIONS = {
-    DEFAULT_LANG: "en",
+    DEFAULT_LANG: "",
     "mi": "./mi",
 }
 
@@ -306,6 +306,8 @@ THEME_CONFIG = {
 
 POSTS = ()
 
+# remove the destination directory to generate pages in the root directory
+# Ian 2021-01-20
 PAGES = (
     ("pages/*.rst", "", "page.tmpl"),
     ("pages/*.md", "", "page.tmpl"),
