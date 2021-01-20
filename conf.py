@@ -112,7 +112,7 @@ TRANSLATIONS = {
 }
 """
 TRANSLATIONS = {
-    DEFAULT_LANG: "",
+    DEFAULT_LANG: "en",
     "mi": "./mi",
 }
 
