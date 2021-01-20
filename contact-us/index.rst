@@ -1,12 +1,18 @@
-.. title: contact-us
+.. title: Contact
 .. slug: contact-us
 .. date: 2021-01-20 17:05:55 UTC+13:00
 .. tags: 
 .. category: 
 .. link: 
-.. description: 
+.. description: English ~ Contact details
 .. type: text
+.. hidetitle: True
+
+
+Site Manager
+============
 
 Joe Koti 
-66 Tennison Street
+
+66 Tennison Street,
 Hamilton.
