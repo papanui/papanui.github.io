@@ -210,10 +210,12 @@ NAVIGATION_LINKS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
+        ("/events/", "Events"),
         ("/contact-us/", "Contact Us"),
     ),
     "mi": (
         ("/mi/index.html", "Kia Ora"),
+        ("/mi/events/", "Ngā kaupapa"),
         ("/mi/contact-us/", "Whakapa Mai"),
     ),
 }

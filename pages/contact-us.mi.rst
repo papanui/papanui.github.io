@@ -12,7 +12,8 @@ Kaiwhakahaere Pae
 =================
 
 .. image:: /images/joe_1.png
-       :scale: 100 %
+       :width: 200
+       :scale: 30 %
        :alt: Blind people. This is a photo of Joe
        :align: left
 
