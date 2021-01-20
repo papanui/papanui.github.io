@@ -20,4 +20,4 @@ Kaiwhakahaere Pae
 Joe Koti
 
 66 Tennison Street, 
-Kirikiriroa.
+Kirikiriroa Aotearoa.
