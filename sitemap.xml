@@ -8,7 +8,6 @@
  <url>
   <loc>https://papanui.github.io/</loc>
   <lastmod>2021-01-20T04:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="mi" href="https://papanui.github.io/mi/indexmi/" />
  </url>
  <url>
   <loc>https://papanui.github.io/archive.html</loc>
@@ -25,7 +24,30 @@
  <url>
   <loc>https://papanui.github.io/contact-us/</loc>
   <lastmod>2021-01-20T04:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="mi" href="https://papanui.github.io/mi/contact-usmi/" />
+ </url>
+ <url>
+  <loc>https://papanui.github.io/en/</loc>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://papanui.github.io/en/archive.html</loc>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://papanui.github.io/en/blog/</loc>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://papanui.github.io/en/categories/</loc>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://papanui.github.io/en/contact-us/</loc>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://papanui.github.io/en/galleries/</loc>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/galleries/</loc>
@@ -37,7 +59,7 @@
  </url>
  <url>
   <loc>https://papanui.github.io/mi/archive.html</loc>
-  <lastmod>2021-01-20T04:32:00Z</lastmod>
+  <lastmod>2021-01-20T04:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://papanui.github.io/mi/blog/</loc>
