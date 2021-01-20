@@ -307,6 +307,9 @@ THEME_CONFIG = {
 POSTS = ()
 
 # remove the destination directory to generate pages in the root directory
+# In a page:
+# title is the page title, slug is the name of the generated HTML file.
+# NAVIGATION_LINKS give the name for navigating to each page
 # Ian 2021-01-20
 PAGES = (
     ("pages/*.rst", "", "page.tmpl"),
