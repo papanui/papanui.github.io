@@ -103,11 +103,17 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 # Provide Support for Maori. mi. Ian 2021-01-20
+"""
 TRANSLATIONS = {
     DEFAULT_LANG: "en",
     "mi": "./mi",
     # Example for another language:
     # "es": "./es",
+}
+"""
+TRANSLATIONS = {
+    DEFAULT_LANG: "",
+    "mi": "./mi",
 }
 
 # What will translated input files be named like?
