@@ -17,7 +17,11 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Ian"  # (translatable)
-BLOG_TITLE = "Te Papanui Enderley Community Trust"  # (translatable)
+#BLOG_TITLE = "Te Papanui Enderley Community Trust"  # (translatable)
+
+BLOG_TITLE = {"en": "Te Papanui Enderley Community Trust",
+              "mi": "Te Papanui Enderley Hapori Kaitiaki"}
+             
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://papanui.github.io/"
@@ -62,6 +66,7 @@ BLOG_DESCRIPTION = "Te Papanui Enderley Community Trust website"  # (translatabl
 # ko        Korean
 # lt        Lithuanian
 # ml        Malayalam
+# mi        Maori
 # mr        Marathi
 # nb        Norwegian (Bokmål)
 # nl        Dutch
@@ -97,8 +102,10 @@ DEFAULT_LANG = "en"
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
+# Provide Support for Maori. mi. Ian 2021-01-20
 TRANSLATIONS = {
-    DEFAULT_LANG: "",
+    DEFAULT_LANG: "en",
+    "mi": "./mi",
     # Example for another language:
     # "es": "./es",
 }
@@ -138,6 +145,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+"""
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
@@ -146,6 +154,63 @@ NAVIGATION_LINKS = {
     ),
 }
 
+
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/index.html", "Welcome"),
+        ("/house/", "The House"),
+        ("/services/", "Services"),
+        ("/wassup-fairfield/", "Wassup Fairfield"),
+        ("/projects/", "Projects"),
+        ("/our-people", "Our People"),
+        ("/community-directory", "Community Directory"),
+        ("/galleries/posters/", "Noticeboard"),
+        ("/contact-us/", "Contact Us"),
+        ("/calendar/", "Calendar"),
+        (
+            (
+                ('/bookings/', 'Booking Information'),
+                ('/fairfield-hall/', 'Fairfield Hall'),
+                ('/driver-licensing/', 'Driver Licensing'),
+            ),
+            'Bookings'
+        ),
+        ("/test/", "Testing"),
+    ),
+    "mi": (
+        ("/mi/index.html", "Kia Ora"),
+        ("/mi/house/", "Te Whare"),
+        ("/mi/services/", "Ngaa Mahi"),
+        ("/mi/wassup-fairfield/", "Koorero a Waerea"),
+        ("/mi/projects/", "Ngaa Tuuranga"),
+        ("/mi/our-people", "He tangata"),
+        ("/mi/community-directory", "Haapori"),
+        ("/mi/galleries/posters/", "Papa Paanui"),
+        ("/mi/contact-us/", "Whakapa Mai"),
+        ("/mi/calendar/", "Ra taka"),
+        (
+            (
+                ('/mi/bookings/', 'Tono'),
+                ('/mi/fairfield-hall/', 'Fairfield Hall'),
+                ('/mi/driver-licensing/', 'Driver Licensing'),
+            ),
+            'Tono'
+        ),
+        ("/mi/test/", "Maori Testing"),
+    ),
+}
+"""
+
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/index.html", "Welcome"),
+        ("/contact-us/", "Contact Us"),
+    ),
+    "mi": (
+        ("/mi/index.html", "Kia Ora"),
+        ("/mi/contact-us/", "Whakapa Mai"),
+    ),
+}
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
