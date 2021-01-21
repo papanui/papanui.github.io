@@ -11,4 +11,7 @@
 Welcome
 =======
 
-Te Papanui Enderley Community Trust manage the facilities at 66 Tennison Rd.
+Te Papanui Enderley Community Trust manage the facilities at: 
+
+66 Tennyson Rd.,
+Hamilton.
