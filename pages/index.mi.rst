@@ -13,4 +13,4 @@
 Kai Ora
 =======
 
-Ko Te Papanui Enderley Community Trust te kaiwhakahaere o nga rawa kei 66 Tennison Rd.
+Ko Te Papanui Enderley Community Trust te kaiwhakahaere o nga rawa kei 66 Tennison Rd, Kirikiriroa.
