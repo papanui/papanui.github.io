@@ -19,7 +19,6 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
     <style>
         textarea {
           width: 80%;
-          height: 30%;
           }
     </style>
 
