@@ -15,9 +15,10 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
 
 .. raw:: html
 
+    <!-- Add CSS for textarea to increase width -->
     <style>
         textarea {
-          width: 100%;
+          width: 80%;
           }
     </style>
 

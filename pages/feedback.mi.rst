@@ -14,19 +14,13 @@ Urupare
 Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanui.
 
 .. raw:: html
-
+    
+    <!-- Add CSS for textarea to increase width -->
     <style>
-        html, body, textarea {
-          margin: 5;
-          padding: 1;
-          border: 1;
-          width: 100%;
-          height: 40%;
-        }
         textarea {
-         vertical-align:top;
-        }
-    </style>
+          width: 80%;
+          }
+    </style>    
         
     <form action="https://formspree.io/f/maylvdvn" method="POST">
 
