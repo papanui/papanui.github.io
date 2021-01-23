@@ -15,6 +15,7 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
 
 .. raw:: html
 
+    
     <form action="https://formspree.io/f/maylvdvn" method="POST">
 
         <!-- Your First Name --> 
@@ -37,9 +38,10 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
         <input type="text" name="Topic" />
         <br/>
         
+        <!-- If rows and cols are not used then use CSS width and height -->
         <!-- Write your comments and suggestions -->
         <div>Tuhia o korero me o whakaaro</div>
-        <textarea name="Message"></textarea>
+        <textarea rows="4" cols="100" name="Message"></textarea>
 
         <br/><br/>
 
