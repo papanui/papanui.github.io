@@ -18,7 +18,7 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
     <style>
         html, body, textarea {
           margin: 1;
-          padding: 1;
+          padding: 5;
           border: 1;
           width: 100%;
           height: 30%;

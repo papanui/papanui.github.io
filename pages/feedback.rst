@@ -18,7 +18,7 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
     <style>
         html, body, textarea {
           margin: 1;
-          padding: 1;
+          padding: 5;
           border: 1;
           width: 100%;
           height: 30%;
