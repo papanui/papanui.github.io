@@ -16,23 +16,37 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
 .. raw:: html
 
     <form action="https://formspree.io/f/maylvdvn" method="POST">
-  
-        <div>Topic</div>
-        <input type="text" name="Topic" />        
 
-        <div>Your Name</div>
-        <input name="Name" />
-
-        <div>Your E-Mail</div>
-        <input name="E-Mail Address" />
-
-        <div>Write your comments and suggestions</div>
-        <textarea name="Message"></textarea>
-
+        <!-- Your First Name --> 
+        <div>To Ingoa Tuatahi</div>
+        <input type="text" name="First Name" />
         <br/>
 
-        <button type="submit">Send</button>        
+        <!-- Your Surname -->
+        <div>To Ingoa</div>
+        <input type="text" name="Surname" />
+        <br/>
 
+        <!-- Your E-Mail -->
+        <div>To Imera-Imeera</div>
+        <input type="email" name="E-Mail Address" />
+        <br/>
+
+        <!-- Topic -->
+        <div>Kaupapa korero</div>
+        <input type="text" name="Topic" />
+        <br/>
+        
+        <!-- Write your comments and suggestions -->
+        <div>Tuhia o korero me o whakaaro</div>
+        <textarea name="Message"></textarea>
+
+        <br/><br/>
+
+        <!-- Send -->
+        <button type="submit">Tukuna</button>        
+        
     </form>
 
+ 
 
