@@ -34,6 +34,7 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
         <input type="text" name="Topic" />
         <br/>
         
+        <!-- If rows and cols are not used then use CSS width and height -->
         <div>Write your comments and suggestions</div>
         <textarea rows="4" cols="100" name="Message"></textarea>
 
