@@ -23,6 +23,13 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
         <div>Your Name</div>
         <input name="Name" />
 
+        <div>Your Surname</div>
+        <label>
+        Your Surname:
+        <input type="text" name="Surname">
+        </label>
+
+
         <div>Your E-Mail</div>
         <input name="E-Mail Address" />
 
