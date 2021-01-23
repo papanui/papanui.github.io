@@ -15,6 +15,18 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
 
 .. raw:: html
 
+    html, body, textarea {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      width: 100%;
+      height: 100%;
+    }
+    textarea {
+     vertical-align:top;
+    }
+
+
     <form action="https://formspree.io/f/maylvdvn" method="POST">
  
         <div>Your First Name</div>
