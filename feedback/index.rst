@@ -15,17 +15,11 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
 
 .. raw:: html
 
+    <!-- Add CSS for textarea to increase width -->
     <style>
-        html, body, textarea {
-          margin: 0;
-          padding: 0;
-          border: 0;
-          width: 100%;
-          height: 30%;
-        }
         textarea {
-         vertical-align:top;
-        }
+          width: 80%;
+          }
     </style>
 
     <form action="https://formspree.io/f/maylvdvn" method="POST">

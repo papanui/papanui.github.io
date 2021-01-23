@@ -14,8 +14,14 @@ Urupare
 Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanui.
 
 .. raw:: html
-
     
+    <!-- Add CSS for textarea to increase width -->
+    <style>
+        textarea {
+          width: 80%;
+          }
+    </style>    
+        
     <form action="https://formspree.io/f/maylvdvn" method="POST">
 
         <!-- Your First Name --> 
@@ -38,10 +44,11 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
         <input type="text" name="Topic" />
         <br/>
         
-        <!-- If rows and cols are not used then use CSS width and height -->
+        <!-- If rows and cols are not used then use CSS width and height 
+            rows="4" cols="100"-->
         <!-- Write your comments and suggestions -->
         <div>Tuhia o korero me o whakaaro</div>
-        <textarea rows="4" cols="100" name="Message"></textarea>
+        <textarea name="Message"></textarea>
 
         <br/><br/>
 
