@@ -211,11 +211,13 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
         ("/events/", "Events"),
+        ("/feedback/", "Feedback"),
         ("/contact-us/", "Contact Us"),
     ),
     "mi": (
         ("/mi/index.html", "Kia Ora"),
         ("/mi/events/", "Ngā kaupapa"),
+        ("/mi/feedback/", "Urupare"),
         ("/mi/contact-us/", "Whakapa Mai"),
     ),
 }
