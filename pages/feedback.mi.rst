@@ -15,22 +15,22 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
 
 .. raw:: html
 
-<form
-  action="https://formspree.io/f/maylvdvn"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+    <form action="https://formspree.io/f/maylvdvn" method="POST">
+  
+        <label>
+        Your email:
+        <input type="text" name="_replyto">
+        </label>
 
-  <!-- your other form fields go here -->
+        <label>
+        Your message:
+        <textarea name="message"></textarea>
+        </label>
 
-  <button type="submit">Send</button>
-</form>
+        <!-- your other form fields go here -->
+
+        <button type="submit">Send</button>
+
+    </form>
 
 
