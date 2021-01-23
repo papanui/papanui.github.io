@@ -15,16 +15,6 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
 
 .. raw:: html
 
-    html, body, textarea {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      width: 100%;
-      height: 100%;
-    }
-    textarea {
-     vertical-align:top;
-    }
     
     <form action="https://formspree.io/f/maylvdvn" method="POST">
 
@@ -50,7 +40,7 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
         
         <!-- Write your comments and suggestions -->
         <div>Tuhia o korero me o whakaaro</div>
-        <textarea name="Message"></textarea>
+        <textarea rows="4" cols="50" name="Message"></textarea>
 
         <br/><br/>
 
