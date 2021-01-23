@@ -4,32 +4,34 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: Provide a feedback form. 
+.. description: Maori Provide a feedback form. 
 .. type: text
 .. hidetitle: True
 
-Feedback
+Urupare
 ========
 
-Please provide your feedback, comments, or suggestions to the Te Papanui team.
+Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanui.
 
 .. raw:: html
 
     <form action="https://formspree.io/f/maylvdvn" method="POST">
   
-        <label>
-        Your email:
-        <input type="text" name="_replyto">
-        </label>
+        <div>Topic</div>
+        <input type="text" name="Topic" />        
 
-        <label>
-        Your message:
-        <textarea name="message"></textarea>
-        </label>
+        <div>Your Name</div>
+        <input name="Name" />
 
-        <!-- your other form fields go here -->
+        <div>Your E-Mail</div>
+        <input name="E-Mail Address" />
 
-        <button type="submit">Send</button>
+        <div>Write your comments and suggestions</div>
+        <textarea name="Message"></textarea>
+
+        <br/>
+
+        <button type="submit">Send</button>        
 
     </form>
 
