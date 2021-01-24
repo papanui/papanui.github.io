@@ -2,17 +2,26 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="mi">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Te Papanui Enderley Community Trust website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Te Papanui Enderley Hapori Kaitiaki</title>
+<title>galleries | Te Papanui Enderley Hapori Kaitiaki</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS (mi)" hreflang="mi" href="../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../rss.xml">
-<link rel="canonical" href="https://papanui.github.io/mi/blog/">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
+<link rel="canonical" href="https://papanui.github.io/mi/galleries/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
+    #gallery_container {
+        position: relative;
+    }
+    .image-block {
+        position: absolute;
+    }
+</style>
+<link rel="alternate" hreflang="en" href="../../galleries/">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -76,18 +85,11 @@
         
         
     
-        
+<nav class="breadcrumbs"><ul class="breadcrumb">
+<li class="breadcrumb-item active">galleries</li>
+</ul></nav><h1>galleries</h1>
 
-    
-        
-    <div class="postindex">
-    </div>
-    
-
-    
-
-    
-
+<div id="gallery_container"></div>
 
         <!--End of body content-->
 
@@ -100,7 +102,12 @@
 </div>
 
 
-        <script src="../../assets/js/all-nocdn.js"></script><script>
+        <script src="../../assets/js/all-nocdn.js"></script><script src="../../assets/js/justified-layout.min.js"></script><script src="../../assets/js/gallery.min.js"></script><script>
+var jsonContent = [];
+var thumbnailSize = 180;
+renderGallery(jsonContent, thumbnailSize);
+window.addEventListener('resize', function(){renderGallery(jsonContent, thumbnailSize)});
+</script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
