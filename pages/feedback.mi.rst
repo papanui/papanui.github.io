@@ -25,18 +25,18 @@ Tena koa whakahoki mai o urupare, korero, whakaaro ranei ki te tiima o Te Papanu
     <form action="https://formspree.io/f/maylvdvn" method="POST">
 
         <!-- Your First Name --> 
-        <div>To Ingoa Tuatahi</div>
-        <input type="text" name="First Name" />
+        <div>To Ingoa Tuatahi (hiahiatia)</div>
+        <input type="text" name="First Name" required/>
         <br/>
 
         <!-- Your Surname -->
-        <div>To Ingoa</div>
-        <input type="text" name="Surname" />
+        <div>To Ingoa (hiahiatia)</div>
+        <input type="text" name="Surname" required/>
         <br/>
 
         <!-- Your E-Mail -->
-        <div>To Imera-Imeera</div>
-        <input type="email" name="E-Mail Address" />
+        <div>To Imera-Imeera (hiahiatia)</div>
+        <input type="email" name="E-Mail Address" required/>
         <br/>
 
         <!-- Topic -->
