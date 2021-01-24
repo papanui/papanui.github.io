@@ -24,16 +24,16 @@ Please provide your feedback, comments, or suggestions to the Te Papanui team.
 
     <form action="https://formspree.io/f/maylvdvn" method="POST">
  
-        <div>Your First Name</div>
-        <input type="text" name="First Name" />
+        <div>Your First Name (required)</div>
+        <input type="text" name="First Name" required />
         <br/>
 
-        <div>Your Surname</div>
-        <input type="text" name="Surname" />
+        <div>Your Surname (required)</div>
+        <input type="text" name="Surname" required />
         <br/>
 
-        <div>Your E-Mail</div>
-        <input type="email" name="E-Mail Address" />
+        <div>Your E-Mail (required)</div>
+        <input type="email" name="E-Mail Address" required />
         <br/>
 
         <div>Topic</div>
