@@ -212,12 +212,14 @@ NAVIGATION_LINKS = {
         ("/index.html", "Welcome"),
         ("/events/", "Events"),
         ("/feedback/", "Feedback"),
+        ("/download/", "Download"),
         ("/contact-us/", "Contact Us"),
     ),
     "mi": (
         ("/mi/index.html", "Kia Ora"),
         ("/mi/events/", "Ngā kaupapa"),
         ("/mi/feedback/", "Urupare"),
+        ("/mi/download/", "Tongohia"),
         ("/mi/contact-us/", "Whakapa Mai"),
     ),
 }
