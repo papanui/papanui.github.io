@@ -11,7 +11,9 @@
 Tangohia
 ========
 
-<!-- Click to download a pdf file... -->
+.. Comment: 
+    Click to download a pdf file...
+
 Patohia ki te tango i tetahi konae pdf...
 
 .. raw:: html
