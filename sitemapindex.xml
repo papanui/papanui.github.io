@@ -6,15 +6,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://papanui.github.io/galleries/rss.xml</loc>
+  <lastmod>2021-01-24T06:35:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://papanui.github.io/mi/galleries/rss.xml</loc>
+  <lastmod>2021-01-24T06:35:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://papanui.github.io/mi/rss.xml</loc>
-  <lastmod>2021-01-24T06:22:00Z</lastmod>
+  <lastmod>2021-01-20T20:42:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://papanui.github.io/rss.xml</loc>
-  <lastmod>2021-01-24T06:22:00Z</lastmod>
+  <lastmod>2021-01-20T20:42:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://papanui.github.io/sitemap.xml</loc>
-  <lastmod>2021-01-24T06:22:00Z</lastmod>
+  <lastmod>2021-01-24T06:35:00Z</lastmod>
  </sitemap>
 </sitemapindex>
