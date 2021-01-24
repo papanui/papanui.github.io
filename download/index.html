@@ -94,7 +94,22 @@
         </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <div class="section" id="download">
+    <div>
+<!-- comment:
+Making pdf files available for downloading:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Change: conf.py from: FILES_FOLDERS = {'files': ''}
+to:  FILES_FOLDERS = {'files': 'files'}
+
+After the Nikola build, all the pdf files are placed into: /output/files/...
+
+Copy all pdf files into the files folder. E.g. test.pdf
+
+For a click-able link to the file that opens the download dialog box:
+
+<a href="/files/test.pdf" download>Download the pdf file: test.pdf</a> -->
+<div class="section" id="download">
 <h2>Download</h2>
 <p>Click to download a pdf file...</p>
 <p>
@@ -103,6 +118,7 @@
 <button type="button">Click to download test.pdf file</button>
 </a>
 </p>
+</div>
 </div>
     </div>
     

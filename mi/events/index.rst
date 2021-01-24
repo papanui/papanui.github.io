@@ -11,4 +11,7 @@
 Kaupapa kua Whakaritea
 ======================
 
-February ~ Start of After-School Program
+.. comment
+    February ~ Start of After-School Program
+
+Pepuere ~ Te tiimata o te Kaupapa Whai muri i te Kura
