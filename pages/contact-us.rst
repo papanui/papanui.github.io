@@ -21,4 +21,4 @@ Site Manager
 Joe Koti 
 
 66 Tennyson Street,
-Hamilton.
+Kirikiriroa.
