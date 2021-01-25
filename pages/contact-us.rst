@@ -20,5 +20,5 @@ Site Manager
 
 Joe Koti 
 
-66 Tennison Street,
+66 Tennyson Street,
 Hamilton.
