@@ -13,12 +13,11 @@ Site Manager
 ============
 
 .. image:: /images/joe_1.png
-       :width: 200
-       :scale: 50 %
+       :width: 400
        :alt: Blind people. This is a photo of Joe
        :align: left
 
 Joe Koti 
 
 66 Tennyson Street,
-Kirikiriroa.
+Kirikiriroa, Aotearoa.
