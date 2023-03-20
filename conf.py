@@ -1049,24 +1049,26 @@ FEED_LINKS_APPEND_QUERY = False
 # Added by Ian 2023-02-20 Get Nikola Version and add it to the footer. Then can see what version github uses
 NIKOLA_VERSION = ""
 PYTHON_VERSION = ""
-
+"""
+# Removed 2023-03-20 - Ian won't update with yaml script.
 try:
     from nikola import __version__ as NIKOLA_VERSION
     #from sys import version as PYTHON_VERSION
     #PYTHON_VERSION = PYTHON_VERSION.split(" ")[0]
 except  Exception as e:
     print("Error obtaining version:", e)
- 
+""" 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
 #LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # Add the creative commons Licence
+# 2023-03-20 - Ian: Positon of license was: style="border-width:0; margin-bottom:12px;"
 LICENSE = """
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License BY-NC-SA"
-style="border-width:0; margin-bottom:12px;"
+style="float: right; margin: 0px 0px 5px 5px; border-width:0;"
 src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
@@ -1075,7 +1077,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 #CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola {nikola_version}</a> using <a href="https://www.python.org/" #rel="nofollow">Python {python_version}</a>  {license}'
 #CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python {python_version}</a>  {license}'
 #CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
-CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola {nikola_version}</a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
+CONTENT_FOOTER = 'Te Papanui Community Center &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
