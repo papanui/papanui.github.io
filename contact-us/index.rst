@@ -13,7 +13,7 @@ Site Manager
 ============
 
 .. image:: /images/joe_1.png
-       :width: 100
+       :width: 200
        :alt: Blind people. This is a photo of Joe
        :align: left
 
