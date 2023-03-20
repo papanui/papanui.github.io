@@ -6,8 +6,17 @@ jobs:
     name: 'Deploy Nikola to GitHub Pages'
     steps:
     - name: Check out
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+      with:
+        set-safe-directory: '*'
     - name: Build and Deploy Nikola
-      uses: getnikola/nikola-action@v3
+      uses: getnikola/nikola-action@v8
       with:
         dry_run: false
+        
+# updated by Ian 2023-03-20   
+#      uses: actions/checkout@v2
+#      uses: getnikola/nikola-action@v3
+# Added
+#       with:
+#        set-safe-directory: '*'
