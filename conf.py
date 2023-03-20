@@ -1049,14 +1049,14 @@ FEED_LINKS_APPEND_QUERY = False
 # Added by Ian 2023-02-20 Get Nikola Version and add it to the footer. Then can see what version github uses
 NIKOLA_VERSION = ""
 PYTHON_VERSION = ""
-"""
+
 try:
-    #from nikola import __version__ as NIKOLA_VERSION
-    from sys import version as PYTHON_VERSION
-    PYTHON_VERSION = PYTHON_VERSION.split(" ")[0]
+    from nikola import __version__ as NIKOLA_VERSION
+    #from sys import version as PYTHON_VERSION
+    #PYTHON_VERSION = PYTHON_VERSION.split(" ")[0]
 except  Exception as e:
     print("Error obtaining version:", e)
-""" 
+ 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
 #LICENSE = ""
@@ -1074,8 +1074,8 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 # CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 #CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola {nikola_version}</a> using <a href="https://www.python.org/" #rel="nofollow">Python {python_version}</a>  {license}'
 #CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python {python_version}</a>  {license}'
-CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
-
+#CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
+CONTENT_FOOTER = 'Te Papanui &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola {nikola_version}</a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
