@@ -20,4 +20,4 @@ Site Manager
 Joe Koti 
 
 66 Tennyson Street,
-Kirikiriroa, Aotearoa.
+Kirikiriroa, Aotearoa...
